@@ -21,11 +21,11 @@ public class Menu {
 		    Scanner scan=new Scanner(System.in);
 		    int op=scan.nextInt();
             if(op==1) {
-//            	Insert ins=new Insert();
-//            	if(sm.insert(ins.getStu()))
-//            		System.out.println("Insert success!");
-//            	else
-//            		System.out.println("Insert failed!");
+            	Insert ins=new Insert();
+            	if(sm.insert(ins.getStu()))
+            		System.out.println("Insert success!");
+            	else
+            		System.out.println("Insert failed!");
             	
             }else if(op==2) {
 //            	 Delete del=new Delete();
