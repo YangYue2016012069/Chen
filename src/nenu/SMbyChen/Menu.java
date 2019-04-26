@@ -35,14 +35,14 @@ public class Menu {
 //            		 System.out.println("Delete failed !");
           	
             }else if(op==3) {
-//            	 System.out.println("Please Input his/her name:");
-//            	  Scanner seca=new Scanner(System.in);
-//            	  String nam=seca.nextLine();
-//            	  Student conq=sm.find(nam);
-//            	  if(conq!=null)
-//            		  new FindConq(conq);
-//            	  else
-//            		  System.out.println("Not find!");
+            	 System.out.println("Please Input his/her name:");
+            	  Scanner seca=new Scanner(System.in);
+            	  String nam=seca.nextLine();
+            	  Student conq=sm.find(nam);
+            	  if(conq!=null)
+            		  new FindConq(conq);
+            	  else
+            		  System.out.println("Not find!");
             	
             }else if(op==4) {
             	    new Outlist(sm.output());
