@@ -28,11 +28,11 @@ public class Menu {
             		System.out.println("Insert failed!");
             	
             }else if(op==2) {
-//            	 Delete del=new Delete();
-//            	 if(sm.delete(del.getName()))
-//            		 System.out.println("Delete success!");
-//            	 else 
-//            		 System.out.println("Delete failed !");
+            	 Delete del=new Delete();
+            	 if(sm.delete(del.getName()))
+            		 System.out.println("Delete success!");
+            	 else 
+            		 System.out.println("Delete failed !");
           	
             }else if(op==3) {
             	 System.out.println("Please Input his/her name:");
@@ -47,16 +47,16 @@ public class Menu {
             }else if(op==4) {
             	    new Outlist(sm.output());
             }else if(op==5) {
-//            	System.out.println("Please input his/her name");
-//            	Scanner sesc=new Scanner(System.in);
-//            	String oriname=sesc.nextLine();
-//                Student oristu=sm.find(oriname);
-//                Editstu edit=new Editstu(oristu);
-//                
-//                if(sm.edit(edit.getNewinf(), oriname))
-//                	System.out.println("Update success!");
-//                else
-//                	System.out.println("Update failed");
+            	System.out.println("Please input his/her name");
+            	Scanner sesc=new Scanner(System.in);
+            	String oriname=sesc.nextLine();
+                Student oristu=sm.find(oriname);
+                Editstu edit=new Editstu(oristu);
+                
+                if(sm.edit(edit.getNewinf(), oriname))
+                	System.out.println("Update success!");
+                else
+                	System.out.println("Update failed");
             }else{
             	break;
             }    
